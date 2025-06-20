@@ -1,0 +1,16 @@
+# Dependências principais para conversão PDF->Kindle
+PyMuPDF==1.23.26          # Para leitura e processamento de PDFs
+EbookLib==0.18            # Para criação de arquivos EPUB
+beautifulsoup4==4.12.2    # Para processamento HTML
+Pillow==10.1.0            # Para processamento de imagens
+pandas==2.1.4             # Para manipulação de tabelas
+lxml==4.9.3               # Parser XML/HTML rápido
+
+# Dependências opcionais para funcionalidades avançadas
+pdfplumber==0.10.3        # Extração avançada de tabelas (alternativa)
+camelot-py[base]==0.10.1  # Extração de tabelas complexas (sem OpenCV)
+tabula-py==2.8.2          # Outra opção para extração de tabelas
+
+# Dependências adicionais para melhor funcionalidade
+numpy>=1.23.2             # Processamento numérico
+openpyxl>=3.0.0          # Para salvar tabelas em Excel (opcional)
